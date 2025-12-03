@@ -35,8 +35,10 @@ configure terminal
 interface GigabitEthernet2
  ip address 10.1.2.2 255.255.255.0
  no shutdown
+ interface Loopback0
+ ip address 10.1.3.1 255.255.255.0
 exit
-ip route 10.1.1.0 255.255.255.0 10.1.2.1
+ip route 0.0.0.0 0.0.0.0 10.1.2.1
 end
 write memory
 ## 確認コマンド
@@ -63,6 +65,23 @@ S        10.1.3.0/24 [1/0] via 10.1.1.2
 Interface              IP-Address      OK? Method Status                Protocol
 GigabitEthernet1       10.0.0.15       YES TFTP   up                    up      
 GigabitEthernet2       10.1.1.1        YES manual up                    up 
+
+<font color="#c00000">router1#ping 10.1.2.1</font>
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 10.1.2.1, timeout is 2 seconds:
+.!!!!
+Success rate is 80 percent (4/5), round-trip min/avg/max = 1/1/2 ms
+<font color="#c00000">router1#ping 10.1.2.2</font>
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 10.1.2.2, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/2 ms
+<font color="#c00000">router1#ping 10.1.3.1</font>
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 10.1.3.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/2 ms
+→ vlan10, vlan20が表示されればOK
 
 ## 注意点
 - ハマりポイント1つだけ
