@@ -58,13 +58,9 @@ Gateway of last resort is not set
       10.0.0.0/8 is variably subnetted, 4 subnets, 2 masks
 C        10.1.1.0/24 is directly connected, GigabitEthernet2
 L        10.1.1.1/32 is directly connected, GigabitEthernet2
-S        10.1.2.0/24 [1/0] via 10.1.1.2
-S        10.1.3.0/24 [1/0] via 10.1.1.2
-
-<font color="#c00000">router1#show ip interface brief</font>
-Interface              IP-Address      OK? Method Status                Protocol
-GigabitEthernet1       10.0.0.15       YES TFTP   up                    up      
-GigabitEthernet2       10.1.1.1        YES manual up                    up 
+<font color="#c00000">S        10.1.2.0/24 [1/0] via 10.1.1.2</font>
+<font color="#c00000">S        10.1.3.0/24 [1/0] via 10.1.1.2</font>
+## → 10.1.2.0,10.1.3.0のスタティックの設定が入ってればOK
 
 <font color="#c00000">router1#ping 10.1.2.1</font>
 Type escape sequence to abort.
@@ -81,7 +77,7 @@ Type escape sequence to abort.
 Sending 5, 100-byte ICMP Echos to 10.1.3.1, timeout is 2 seconds:
 !!!!!
 Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/2 ms
-→ vlan10, vlan20が表示されればOK
+## → pingが通ればOK
 
 ## 注意点
-- ハマりポイント1つだけ
+- R3からR1への戻りの経路の設定を忘れずに
