@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/01-Fundamentals/Static Route.md",
+                "file": "Network/01-Fundamentals/Default Route.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Static Route"
+              "title": "Default Route"
             }
           }
         ],
@@ -215,10 +215,11 @@
   },
   "active": "6fe7e487147aa032",
   "lastOpenFiles": [
-    "Network/01-Fundamentals/VLAN.md",
-    "Network/01-Fundamentals/Static Route.md",
-    "Network/01-Fundamentals/Trunk Access Port.md",
     "Network/00-Index.md.md",
+    "Network/01-Fundamentals/Default Route.md",
+    "Network/01-Fundamentals/Static Route.md",
+    "Network/01-Fundamentals/VLAN.md",
+    "Network/01-Fundamentals/Trunk Access Port.md",
     "Network/01-Fundamentals/IPv4 Subnetting.md",
     "aaaaaaaaaaaaaa.md",
     "無題のファイル.base",
