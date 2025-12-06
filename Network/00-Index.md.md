@@ -65,6 +65,26 @@
 39. IPv6全般
 40. Multicast
 
+Network/
+├── 00-Index.md
+├── 01-Fundamentals/
+│   ├── Subnetting.md
+│   ├── VLAN.md
+│   └── Static-Route.md
+├── 02-Layer2/
+│   ├── STP.md
+│   ├── EtherChannel.md
+│   └── VLAN-Routing.md
+├── 03-Layer3/
+│   ├── OSPF.md
+│   ├── EIGRP.md
+│   └── BGP.md
+├── 04-Security/
+├── 05-HA/
+├── Labs/
+│   ├── Lab01-Basic-VLAN.md
+│   └── Lab02-OSPF-Single-Area.md
+└── Troubleshooting/
 
 # 機能名
 
