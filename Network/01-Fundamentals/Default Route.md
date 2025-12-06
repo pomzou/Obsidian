@@ -54,6 +54,24 @@ L        10.0.0.1/32 is directly connected, GigabitEthernet3
       192.168.1.0/24 is variably subnetted, 2 subnets, 2 masks
 C        192.168.1.0/24 is directly connected, GigabitEthernet2
 L        192.168.1.1/32 is directly connected, GigabitEthernet2
-## → デフォルトルートが10.0.0.2(R2 Gi2)に向いてればok
+## → S* 0.0.0.0/0 と表示されればok
+
+<font color="#c00000">R1#ping 10.0.0.2</font>
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 10.0.0.2, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/3 ms
+## → pingが通ればok
+
+<font color="#c00000">/ # ping 8.8.8.8</font>
+PING 8.8.8.8 (8.8.8.8): 56 data bytes
+64 bytes from 8.8.8.8: seq=0 ttl=115 time=4.427 ms
+64 bytes from 8.8.8.8: seq=1 ttl=115 time=4.485 ms
+64 bytes from 8.8.8.8: seq=2 ttl=115 time=5.129 ms
+^C
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 packets received, 0% packet loss
+round-trip min/avg/max = 4.427/4.680/5.129 ms
+## → pingが通ればok
 ## 注意点
-- ハマりポイント1つだけ
+- 最も優先度低い（AD=1）
