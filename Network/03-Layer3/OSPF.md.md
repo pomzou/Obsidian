@@ -84,6 +84,7 @@ Type escape sequence to abort.
 Sending 5, 100-byte ICMP Echos to 3.3.3.3, timeout is 2 seconds:
 !!!!!
 Success rate is 100 percent (5/5), round-trip min/avg/max = 2/2/4 ms
+## → pingが通ればOK
 
 ## 注意点
 - ワイルドカード = サブネットマスクの逆 
