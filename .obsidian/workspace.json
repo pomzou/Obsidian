@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/03-Layer3/OSPF (Multi Area).md",
+                "file": "Network/03-Layer3/Administrative Distance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSPF (Multi Area)"
+              "title": "Administrative Distance"
             }
           }
         ],
@@ -215,9 +215,10 @@
   },
   "active": "6fe7e487147aa032",
   "lastOpenFiles": [
-    "Network/03-Layer3/OSPF (Single Area).md",
-    "Network/03-Layer3/OSPF (Multi Area).md",
     "Network/00-Index.md.md",
+    "Network/03-Layer3/Administrative Distance.md",
+    "Network/03-Layer3/OSPF (Multi Area).md",
+    "Network/03-Layer3/OSPF (Single Area).md",
     "Network/01-Fundamentals/Static Route.md",
     "Network/01-Fundamentals/VLAN.md",
     "Network/01-Fundamentals/Default Route.md",

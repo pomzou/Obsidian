@@ -92,15 +92,22 @@ Neighbor ID     Pri   State           Dead Time   Address         Interface
 Gateway of last resort is not set
 
       2.0.0.0/32 is subnetted, 1 subnets
-O IA     2.2.2.2 [110/2] via 10.1.1.2, 00:00:23, GigabitEthernet2
+<font color="#c00000">O IA     2.2.2.2 [110/2] via 10.1.1.2, 00:00:23, GigabitEthernet2</font>
       3.0.0.0/32 is subnetted, 1 subnets
-O IA     3.3.3.3 [110/3] via 10.1.1.2, 00:00:18, GigabitEthernet2
+<font color="#c00000">O IA     3.3.3.3 [110/3] via 10.1.1.2, 00:00:18, GigabitEthernet2</font>
       4.0.0.0/32 is subnetted, 1 subnets
-O IA     4.4.4.4 [110/4] via 10.1.1.2, 00:00:13, GigabitEthernet2
+<font color="#c00000">O IA     4.4.4.4 [110/4] via 10.1.1.2, 00:00:13, GigabitEthernet2</font>
       10.0.0.0/8 is variably subnetted, 4 subnets, 2 masks
-O IA     10.1.2.0/24 [110/2] via 10.1.1.2, 00:00:23, GigabitEthernet2
-O IA     10.1.3.0/24 [110/3] via 10.1.1.2, 00:00:18, GigabitEthernet2
+<font color="#c00000">O IA     10.1.2.0/24 [110/2] via 10.1.1.2, 00:00:23, GigabitEthernet2</font>
+<font color="#c00000">O IA     10.1.3.0/24 [110/3] via 10.1.1.2, 00:00:18, GigabitEthernet2</font>
 ## → `O IA`（Inter-Area）の経路があればOK
+
+<font color="#c00000">R1#ping 4.4.4.4</font>
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 4.4.4.4, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/2 ms
+## → pingが通ればOK
 ## 注意点
 - Area 0は必須 
 - 全エリアはArea 0経由で通信
