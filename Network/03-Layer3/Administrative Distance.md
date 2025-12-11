@@ -44,7 +44,24 @@ end
 write memory
 
 ## 確認コマンド
-```コマンド```
+<font color="#c00000">R1#show ip route 192.168.1.0</font>
+Routing entry for 192.168.1.0/24
+  <font color="#c00000">Known via "static", distance 1, metric 0</font>
+  Routing Descriptor Blocks:
+  * 10.1.1.2
+      Route metric is 0, traffic share count is 1
+## → Static (AD=1) が優先されているならOK
+  
+  <font color="#c00000">R1#show ip route</font>
+[Codes の一覧は省略]
+
+Gateway of last resort is not set
+
+      10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks
+C        10.1.1.0/24 is directly connected, GigabitEthernet2
+L        10.1.1.1/32 is directly connected, GigabitEthernet2
+S     192.168.1.0/24 [1/0] via 10.1.1.2
+## → Staticの経路があってOSPFの経路が表示されていないならOK
 
 ## 注意点
 - AD小さい = 優先度高い 
