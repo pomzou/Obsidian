@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ラボ問題２まとめ.md",
+                "file": "ラボ/ラボ問題２まとめ.md",
                 "mode": "source",
                 "source": false
               },
@@ -203,26 +203,28 @@
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "d283a4b074281e69",
   "lastOpenFiles": [
+    "ラボ/ラボ問題１まとめ.md",
+    "ラボ/ラボ問題２まとめ.md",
+    "ラボ/## ラボ問題 #2.md",
+    "ラボ/## ラボ問題 #1.md",
+    "ラボ",
+    "ネットワーク学習 目次.md",
     "Pasted image 20260214023936.png",
+    "無題のファイル 1.md",
+    "無題のファイル.md",
+    "【半年ロードマップ】.md",
     "Pasted image 20260214023141.png",
     "Pasted image 20260214022854.png",
     "Pasted image 20260213223441.png",
     "Pasted image 20260213172212.png",
     "Pasted image 20260213164613.png",
     "Pasted image 20260213152906.png",
-    "Pasted image 20260212212855.png",
-    "ラボ問題２まとめ.md",
-    "## ラボ問題 #2.md",
-    "ラボ問題１まとめ.md",
-    "無題のファイル.md",
-    "ネットワーク学習 目次.md",
-    "## ラボ問題 #1.md",
-    "無題のフォルダ",
-    "【半年ロードマップ】.md"
+    "Pasted image 20260212212855.png"
   ]
 }
