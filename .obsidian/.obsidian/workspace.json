@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ラボ/ラボ問題3まとめ.md",
+                "file": "ラボ/ラボ問題6まとめ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ラボ問題3まとめ"
+              "title": "ラボ問題6まとめ"
             }
           },
           {
@@ -251,19 +251,22 @@
   },
   "active": "aa64ea9085bf5059",
   "lastOpenFiles": [
-    "ラボ/ラボ問題4まとめ.md",
+    "ラボ/ラボ問題１まとめ.md",
+    "ラボ/ラボ問題6まとめ.md",
+    "ラボ/## ラボ問題 #6.md",
+    "Pasted image 20260216001958.png",
+    "ラボ/## ラボ問題 #5.md",
     "ラボ/ラボ問題3まとめ.md",
+    "ラボ/ラボ問題4まとめ.md",
     "ラボ/## ラボ問題 #3.md",
     "絶対に覚えろ.md",
     "ラボ/## ラボ問題 #1.md",
     "ラボ/ラボ問題5まとめ.md",
-    "ラボ/## ラボ問題 #5.md",
     "無題のファイル.md",
     "Pasted image 20260215183828.png",
     "ラボ/## ラボ問題 #4.md",
     "ラボ/ラボ問題２まとめ.md",
     "Pasted image 20260215033108.png",
-    "ラボ/ラボ問題１まとめ.md",
     "ラボ/## ラボ問題 #2.md",
     "Loopbackアドレス まとめ.md",
     "Pasted image 20260214170912.png",
@@ -275,7 +278,6 @@
     "Pasted image 20260214022854.png",
     "Pasted image 20260213223441.png",
     "Pasted image 20260213172212.png",
-    "Pasted image 20260213164613.png",
-    "Pasted image 20260213152906.png"
+    "Pasted image 20260213164613.png"
   ]
 }
