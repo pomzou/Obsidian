@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ラボ/## ラボ問題 #5.md",
+                "file": "ラボ/ラボ問題6まとめ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "## ラボ問題 #5"
+              "title": "ラボ問題6まとめ"
             }
           },
           {
@@ -251,12 +251,14 @@
   },
   "active": "aa64ea9085bf5059",
   "lastOpenFiles": [
+    "ラボ/## ラボ問題 #7.md",
+    "Pasted image 20260217202225.png",
+    "ラボ/## ラボ問題 #6.md",
+    "ラボ/## ラボ問題 #5.md",
     "ラボ/ラボ問題5まとめ.md",
     "ラボ/ラボ問題6まとめ.md",
-    "ラボ/## ラボ問題 #6.md",
     "ラボ/ラボ問題１まとめ.md",
     "Pasted image 20260216001958.png",
-    "ラボ/## ラボ問題 #5.md",
     "ラボ/ラボ問題3まとめ.md",
     "ラボ/ラボ問題4まとめ.md",
     "ラボ/## ラボ問題 #3.md",
@@ -277,7 +279,6 @@
     "Pasted image 20260214023141.png",
     "Pasted image 20260214022854.png",
     "Pasted image 20260213223441.png",
-    "Pasted image 20260213172212.png",
-    "Pasted image 20260213164613.png"
+    "Pasted image 20260213172212.png"
   ]
 }
