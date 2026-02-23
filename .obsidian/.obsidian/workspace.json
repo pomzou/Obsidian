@@ -51,40 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ネットワーク学習 目次.md",
+                "file": "ラボ/ラボ問題11まとめ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ネットワーク学習 目次"
-            }
-          },
-          {
-            "id": "f6afb4d464ace804",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "絶対に覚えろ.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "絶対に覚えろ"
-            }
-          },
-          {
-            "id": "aa1e248ceb6f4d53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ラボ/ラボ問題5まとめ.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ラボ問題5まとめ"
+              "title": "ラボ問題11まとめ"
             }
           }
         ],
@@ -251,8 +223,12 @@
   },
   "active": "aa64ea9085bf5059",
   "lastOpenFiles": [
-    "ラボ/## ラボ問題 #10.md",
     "ラボ/ラボ問題10まとめ.md",
+    "ラボ/ラボ問題11まとめ.md",
+    "ラボ/## ラボ問題 #11ICMPでの検証できないためスキップ.md",
+    "Pasted image 20260223100937.png",
+    "ネットワーク学習 目次.md",
+    "ラボ/## ラボ問題 #10.md",
     "ラボ/ラボ問題9まとめ.md",
     "Pasted image 20260222172735.png",
     "ラボ/## ラボ問題 #9.md",
@@ -262,7 +238,6 @@
     "ラボ/## ラボ問題 #8.md",
     "絶対に覚えろ.md",
     "無題のファイル.md",
-    "ネットワーク学習 目次.md",
     "ラボ/ラボ問題7まとめ.md",
     "画像/Pasted image 20260217213644.png",
     "画像/Pasted image 20260217213633.png",
@@ -285,8 +260,6 @@
     "ラボ/## ラボ問題 #2.md",
     "Loopbackアドレス まとめ.md",
     "画像/Pasted image 20260214170912.png",
-    "ラボ",
-    "画像/Pasted image 20260214023936.png",
-    "【半年ロードマップ】.md"
+    "ラボ"
   ]
 }
