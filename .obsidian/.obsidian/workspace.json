@@ -63,12 +63,14 @@
             "id": "22ac09d71b0e3995",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "ラボ演習/ラボ演習#1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "リリースノート 1.12.4"
+              "icon": "lucide-file",
+              "title": "ラボ演習#1"
             }
           }
         ],
