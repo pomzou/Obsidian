@@ -58,9 +58,21 @@
               "icon": "lucide-file",
               "title": "ラボ演習#1"
             }
+          },
+          {
+            "id": "22ac09d71b0e3995",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "リリースノート 1.12.4"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -211,17 +223,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新規ベースを作成": false,
       "switcher:クイックスイッチャーを開く": false,
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "graph:グラフビューを開く": false
     }
   },
-  "active": "aa64ea9085bf5059",
+  "active": "22ac09d71b0e3995",
   "lastOpenFiles": [
     "ラボ演習/ラボ演習　例.md",
     "ラボ演習/ラボ演習#1.md",
