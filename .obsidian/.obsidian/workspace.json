@@ -86,9 +86,21 @@
               "icon": "lucide-file",
               "title": "ラボ演習#2 小規模ECサイト運営会社"
             }
+          },
+          {
+            "id": "ccaae877221ff30f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "リリースノート 1.12.7"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -249,7 +261,7 @@
       "graph:グラフビューを開く": false
     }
   },
-  "active": "cf389e1ce3dfbef3",
+  "active": "ccaae877221ff30f",
   "lastOpenFiles": [
     "ラボ演習/ラボ演習　例.md",
     "ラボ演習/ラボ演習#2 小規模ECサイト運営会社.md",
