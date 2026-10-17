@@ -100,9 +100,21 @@
               "icon": "lucide-file",
               "title": "【学習記録ノート】ネットワーク・データ配置構造設計（障害対策・冗長化編）"
             }
+          },
+          {
+            "id": "84c5459c449f8a4a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "リリースノート 1.13.7"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "ファイルエクスプローラ"
@@ -263,7 +277,7 @@
       "graph:グラフビューを開く": false
     }
   },
-  "active": "ccaae877221ff30f",
+  "active": "84c5459c449f8a4a",
   "lastOpenFiles": [
     "設計演習/【学習記録ノート】ネットワーク・データ配置構造設計.md",
     "設計演習/【学習記録ノート】ネットワーク・データ配置構造設計（障害対策・冗長化編）.md",
