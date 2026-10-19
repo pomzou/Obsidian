@@ -112,9 +112,21 @@
               "icon": "lucide-book-up",
               "title": "リリースノート 1.13.7"
             }
+          },
+          {
+            "id": "4e77f227f8d8fddf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "リリースノート 1.14.4"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -277,7 +289,7 @@
       "graph:グラフビューを開く": false
     }
   },
-  "active": "84c5459c449f8a4a",
+  "active": "4e77f227f8d8fddf",
   "lastOpenFiles": [
     "設計演習/【学習記録ノート】ネットワーク・データ配置構造設計.md",
     "設計演習/【学習記録ノート】ネットワーク・データ配置構造設計（障害対策・冗長化編）.md",
