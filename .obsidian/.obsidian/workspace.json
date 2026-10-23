@@ -114,9 +114,21 @@
               "icon": "lucide-file",
               "title": "TorchlightInfinite次期スタダ計画"
             }
+          },
+          {
+            "id": "fcd6134433b7cf27",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "リリースノート 1.14.5"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -279,7 +291,7 @@
       "graph:グラフビューを開く": false
     }
   },
-  "active": "84c5459c449f8a4a",
+  "active": "fcd6134433b7cf27",
   "lastOpenFiles": [
     "TorchlightInfinite次期スタダ計画.md",
     "設計演習/【学習記録ノート】ネットワーク・データ配置構造設計.md",
