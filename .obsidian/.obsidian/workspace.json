@@ -119,12 +119,14 @@
             "id": "fcd6134433b7cf27",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.14.5"
+                "file": "TorchlightInfinite次期スタダ計画.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "リリースノート 1.14.5"
+              "icon": "lucide-file",
+              "title": "TorchlightInfinite次期スタダ計画"
             }
           }
         ],
